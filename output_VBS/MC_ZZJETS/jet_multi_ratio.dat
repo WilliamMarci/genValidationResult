@@ -1,0 +1,50 @@
+# BEGIN PLOT
+Legend=1
+LogY=0
+Title=Ratio of jet multiplicity
+XLabel=$N_{\mathrm{jet}}$
+YLabel=$\sigma(\geq N_{\mathrm{jet}})/\sigma(\geq N_{\mathrm{jet}}-1)$
+XMajorTickMarks=10
+XMinorTickMarks=0
+ErrorBands=1
+RemoveOptions=1
+DrawOnly=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_ZZJETS:ENERGY=13000/jet_multi_ratio //eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_ZZJETS:ENERGY=13000/jet_multi_ratio
+LegendOnly=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_ZZJETS:ENERGY=13000/jet_multi_ratio //eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_ZZJETS:ENERGY=13000/jet_multi_ratio
+RatioPlot=1
+RatioPlotReference=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_ZZJETS:ENERGY=13000/jet_multi_ratio
+RatioPlotYLabel=Ratio
+# END PLOT
+
+# BEGIN HISTO1D //eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_ZZJETS:ENERGY=13000/jet_multi_ratio
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 0.18814417367671946, dn: 0.18814417367671946}}, 1: {"": {up: 0.18438954012319544, dn: 0.18438954012319544}}, 2: {"": {up: 0.10762164325539487, dn: 0.10762164325539487}}, 3: {"": {up: 0.11443112748192551, dn: 0.11443112748192551}}, 4: {"": {up: 0.18098818095043931, dn: 0.18098818095043931}}, 5: {"": {up: 0, dn: 0}}}
+LineColor=red
+LineStyle=solid
+Path=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_ZZJETS:ENERGY=13000/jet_multi_ratio
+Title=VBSZZ@NLO(v2918)
+# xlow	 xhigh	 val	 errminus	 errplus
+5.000000e-01	1.500000e+00	1.000000e+00	1.881442e-01	1.881442e-01
+1.500000e+00	2.500000e+00	9.734513e-01	1.843895e-01	1.843895e-01
+2.500000e+00	3.500000e+00	4.545455e-01	1.076216e-01	1.076216e-01
+3.500000e+00	4.500000e+00	2.800000e-01	1.144311e-01	1.144311e-01
+4.500000e+00	5.500000e+00	2.142857e-01	1.809882e-01	1.809882e-01
+5.500000e+00	6.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+
+
+# BEGIN HISTO1D //eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_ZZJETS:ENERGY=13000/jet_multi_ratio
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 0.19611613513818402, dn: 0.19611613513818402}}, 1: {"": {up: 0.19044044958566539, dn: 0.19044044958566539}}, 2: {"": {up: 0.11208203932499369, dn: 0.11208203932499369}}, 3: {"": {up: 0.11014239941900546, dn: 0.11014239941900546}}, 4: {"": {up: 0.23968953102746982, dn: 0.23968953102746982}}, 5: {"": {up: 0, dn: 0}}}
+LineColor=blue
+LineStyle=solid
+Path=//eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_ZZJETS:ENERGY=13000/jet_multi_ratio
+Title=VBSZZ@NLO(v352)
+# xlow	 xhigh	 val	 errminus	 errplus
+5.000000e-01	1.500000e+00	1.000000e+00	1.961161e-01	1.961161e-01
+1.500000e+00	2.500000e+00	9.615385e-01	1.904404e-01	1.904404e-01
+2.500000e+00	3.500000e+00	4.500000e-01	1.120820e-01	1.120820e-01
+3.500000e+00	4.500000e+00	2.444444e-01	1.101424e-01	1.101424e-01
+4.500000e+00	5.500000e+00	2.727273e-01	2.396895e-01	2.396895e-01
+5.500000e+00	6.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+

@@ -1,0 +1,77 @@
+# BEGIN PLOT
+Legend=1
+LogY=1
+XLabelSep=4.4
+YLabelSep=5.4
+ConnectBins=0
+RatioPlotSameStyle=0
+RatioPlotErrorBandColor=grey!40!yellow!60
+XTwosidedTicks=1
+YTwosidedTicks=1
+Title={$\sqrt{s}=13~\mathrm{TeV}$}
+FullRange=1
+LogX=0
+XLabel={Exclusive Jet Multiplicity}
+YLabel={$\sigma(\mathrm{Z}/\gamma*\rightarrow \mathrm{ll} + N \mathrm{~jets})$ [pb]}
+LegendXPos=0.5
+LegendYPos=0.9
+RemoveOptions=1
+DrawOnly=/CMS_2018_I1667854/d01-x01-y01 //eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/CMS_2018_I1667854/d01-x01-y01 //eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/CMS_2018_I1667854/d01-x01-y01
+LegendOnly=/CMS_2018_I1667854/d01-x01-y01 //eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/CMS_2018_I1667854/d01-x01-y01 //eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/CMS_2018_I1667854/d01-x01-y01
+RatioPlot=1
+RatioPlotReference=/CMS_2018_I1667854/d01-x01-y01
+# END PLOT
+
+# BEGIN HISTO1D /CMS_2018_I1667854/d01-x01-y01
+ConnectBins=0
+ErrorBars=1
+IsRef=1
+Path=/CMS_2018_I1667854/d01-x01-y01
+PolyMarker=*
+Title=Data
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.517210e+02	1.933500e+01	1.933500e+01
+5.000000e-01	1.500000e+00	9.798650e+01	5.021160e+00	5.021160e+00
+1.500000e+00	2.500000e+00	2.225580e+01	1.624190e+00	1.624190e+00
+2.500000e+00	3.500000e+00	4.683580e+00	4.879160e-01	4.879160e-01
+3.500000e+00	4.500000e+00	1.013870e+00	1.206080e-01	1.206080e-01
+4.500000e+00	5.500000e+00	2.742800e-01	4.042320e-02	4.042320e-02
+5.500000e+00	6.500000e+00	4.482540e-02	1.273060e-02	1.273060e-02
+# END HISTO1D
+
+
+# BEGIN HISTO1D //eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/CMS_2018_I1667854/d01-x01-y01
+ErrorBars=1
+LineColor=red
+LineStyle=solid
+Path=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/CMS_2018_I1667854/d01-x01-y01
+ScaledBy=5.02515000000000050e-07
+Title=VBSZZ@NLO(v2918)
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	8.040240e-06	2.010060e-06	2.010060e-06
+5.000000e-01	1.500000e+00	4.522635e-05	4.767276e-06	4.767276e-06
+1.500000e+00	2.500000e+00	8.442252e-05	6.513339e-06	6.513339e-06
+2.500000e+00	3.500000e+00	8.794013e-05	6.647648e-06	6.647648e-06
+3.500000e+00	4.500000e+00	3.969869e-05	4.466450e-06	4.466450e-06
+4.500000e+00	5.500000e+00	1.457294e-05	2.706126e-06	2.706126e-06
+5.500000e+00	6.500000e+00	1.507545e-06	8.703815e-07	8.703815e-07
+# END HISTO1D
+
+
+# BEGIN HISTO1D //eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/CMS_2018_I1667854/d01-x01-y01
+ErrorBars=1
+LineColor=blue
+LineStyle=solid
+Path=//eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/CMS_2018_I1667854/d01-x01-y01
+ScaledBy=4.98359999999999918e-07
+Title=VBSZZ@NLO(v352)
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	6.977040e-06	1.864692e-06	1.864692e-06
+5.000000e-01	1.500000e+00	4.335732e-05	4.648392e-06	4.648392e-06
+1.500000e+00	2.500000e+00	8.621628e-05	6.554903e-06	6.554903e-06
+2.500000e+00	3.500000e+00	9.169824e-05	6.760084e-06	6.760084e-06
+3.500000e+00	4.500000e+00	4.285896e-05	4.621600e-06	4.621600e-06
+4.500000e+00	5.500000e+00	8.472120e-06	2.054791e-06	2.054791e-06
+5.500000e+00	6.500000e+00	1.495080e-06	8.631849e-07	8.631849e-07
+# END HISTO1D
+

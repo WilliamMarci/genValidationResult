@@ -1,0 +1,41 @@
+# BEGIN PLOT
+Legend=1
+LogY=0
+Title=Number of generated events
+XLabel=
+YLabel=$N$
+XCustomMajorTicks=0.5	$\quad$
+XMinorTickMarks=0
+LegendXPos=0.05
+LegendYPos=0.15
+RemoveOptions=1
+DrawOnly=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_XS:ENERGY=13000/N //eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_XS:ENERGY=13000/N
+LegendOnly=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_XS:ENERGY=13000/N //eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_XS:ENERGY=13000/N
+RatioPlot=1
+RatioPlotReference=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_XS:ENERGY=13000/N
+RatioPlotYLabel=Ratio
+# END PLOT
+
+# BEGIN HISTO1D //eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_XS:ENERGY=13000/N
+ErrorBars=1
+LineColor=red
+LineStyle=solid
+Path=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_XS:ENERGY=13000/N
+ScaledBy=1.00000000000000000e+00
+Title=VBSZZ@NLO(v2918)
+# xlow	 xhigh	 val	 errminus	 errplus
+0.000000e+00	1.000000e+00	1.000000e+03	3.162278e+01	3.162278e+01
+# END HISTO1D
+
+
+# BEGIN HISTO1D //eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_XS:ENERGY=13000/N
+ErrorBars=1
+LineColor=blue
+LineStyle=solid
+Path=//eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_XS:ENERGY=13000/N
+ScaledBy=1.00000000000000000e+00
+Title=VBSZZ@NLO(v352)
+# xlow	 xhigh	 val	 errminus	 errplus
+0.000000e+00	1.000000e+00	1.000000e+03	3.162278e+01	3.162278e+01
+# END HISTO1D
+

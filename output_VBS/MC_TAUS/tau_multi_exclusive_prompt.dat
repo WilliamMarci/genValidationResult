@@ -1,0 +1,48 @@
+# BEGIN PLOT
+Legend=1
+LogY=1
+Title=Exclusive tau multiplicity
+XLabel=$N_{\mathrm{tau}}$
+YLabel=$\sigma(N_{\mathrm{tau}})$ [pb]
+XMajorTickMarks=10
+XMinorTickMarks=0
+ErrorBands=1
+RemoveOptions=1
+DrawOnly=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt //eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt
+LegendOnly=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt //eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt
+RatioPlot=1
+RatioPlotReference=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt
+RatioPlotYLabel=Ratio
+# END PLOT
+
+# BEGIN HISTO1D //eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt
+ErrorBars=1
+LineColor=red
+LineStyle=solid
+Path=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt
+ScaledBy=1.00503000000000010e-06
+Title=VBSZZ@NLO(v2918)
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	4.723641e-04	2.178853e-05	2.178853e-05
+5.000000e-01	1.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+1.500000e+00	2.500000e+00	4.221126e-04	2.059699e-05	2.059699e-05
+2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	1.105533e-04	1.054084e-05	1.054084e-05
+# END HISTO1D
+
+
+# BEGIN HISTO1D //eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt
+ErrorBars=1
+LineColor=blue
+LineStyle=solid
+Path=//eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_exclusive_prompt
+ScaledBy=9.96719999999999835e-07
+Title=VBSZZ@NLO(v352)
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	4.674617e-04	2.158537e-05	2.158537e-05
+5.000000e-01	1.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+1.500000e+00	2.500000e+00	4.255994e-04	2.059620e-05	2.059620e-05
+2.500000e+00	3.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.500000e+00	4.500000e+00	1.036589e-04	1.016459e-05	1.016459e-05
+# END HISTO1D
+

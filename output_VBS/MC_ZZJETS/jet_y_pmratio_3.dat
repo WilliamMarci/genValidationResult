@@ -1,0 +1,65 @@
+# BEGIN PLOT
+Legend=1
+LogY=1
+Title=Rapidity $+/-$ ratio of third jet
+XLabel=$y(\mathrm{jet~3})_+/y(\mathrm{jet~3})_-$
+YLabel=$|y(\mathrm{jet~3}|$
+RemoveOptions=1
+DrawOnly=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_ZZJETS:ENERGY=13000/jet_y_pmratio_3 //eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_ZZJETS:ENERGY=13000/jet_y_pmratio_3
+LegendOnly=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_ZZJETS:ENERGY=13000/jet_y_pmratio_3 //eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_ZZJETS:ENERGY=13000/jet_y_pmratio_3
+RatioPlot=1
+RatioPlotReference=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_ZZJETS:ENERGY=13000/jet_y_pmratio_3
+RatioPlotYLabel=Ratio
+# END PLOT
+
+# BEGIN HISTO1D //eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_ZZJETS:ENERGY=13000/jet_y_pmratio_3
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 1.3693063937629153, dn: 1.3693063937629153}}, 1: {"": {up: 1, dn: 1}}, 2: {"": {up: 0.61237243569579447, dn: 0.61237243569579447}}, 3: {"": {up: 0.60858061945018471, dn: 0.60858061945018471}}, 4: {"": {up: 0.60858061945018471, dn: 0.60858061945018471}}, 5: {"": {up: 0.18002057495577387, dn: 0.18002057495577387}}, 6: {"": {up: 0, dn: 0}}, 7: {"": {up: 1.7320508075688774, dn: 1.7320508075688774}}, 8: {"": {up: 1.4142135623730951, dn: 1.4142135623730951}}, 9: {"": {up: 0.38490017945975047, dn: 0.38490017945975047}}, 10: {"": {up: 0, dn: 0}}, 11: {"": {up: .nan, dn: .nan}}, 12: {"": {up: .nan, dn: .nan}}, 13: {"": {up: .nan, dn: .nan}}, 14: {"": {up: .nan, dn: .nan}}}
+LineColor=red
+LineStyle=solid
+Path=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_ZZJETS:ENERGY=13000/jet_y_pmratio_3
+Title=VBSZZ@NLO(v2918)
+# xlow	 xhigh	 val	 errminus	 errplus
+0.000000e+00	3.333334e-01	1.500000e+00	1.369306e+00	1.369306e+00
+3.333333e-01	6.666667e-01	1.000000e+00	1.000000e+00	1.000000e+00
+6.666666e-01	1.000000e+00	5.000000e-01	6.123724e-01	6.123724e-01
+1.000000e+00	1.333334e+00	6.666667e-01	6.085806e-01	6.085806e-01
+1.333333e+00	1.666667e+00	6.666667e-01	6.085806e-01	6.085806e-01
+1.666666e+00	2.000000e+00	1.666667e-01	1.800206e-01	1.800206e-01
+2.000000e+00	2.333334e+00	0.000000e+00	0.000000e+00	0.000000e+00
+2.333333e+00	2.666667e+00	2.000000e+00	1.732051e+00	1.732051e+00
+2.666666e+00	3.000000e+00	1.000000e+00	1.414214e+00	1.414214e+00
+3.000000e+00	3.333334e+00	3.333333e-01	3.849002e-01	3.849002e-01
+3.333333e+00	3.666667e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.666666e+00	4.000000e+00	nan	nan	nan
+4.000000e+00	4.333334e+00	nan	nan	nan
+4.333333e+00	4.666667e+00	nan	nan	nan
+4.666666e+00	5.000000e+00	nan	nan	nan
+# END HISTO1D
+
+
+# BEGIN HISTO1D //eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_ZZJETS:ENERGY=13000/jet_y_pmratio_3
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 2.4494897427831779, dn: 2.4494897427831779}}, 1: {"": {up: 2.4494897427831779, dn: 2.4494897427831779}}, 2: {"": {up: 0, dn: 0}}, 3: {"": {up: 2.4494897427831779, dn: 2.4494897427831779}}, 4: {"": {up: 0.81649658092772603, dn: 0.81649658092772603}}, 5: {"": {up: 0.53665631459994956, dn: 0.53665631459994956}}, 6: {"": {up: 4.4721359549995796, dn: 4.4721359549995796}}, 7: {"": {up: 0.38490017945975047, dn: 0.38490017945975047}}, 8: {"": {up: 0.61237243569579447, dn: 0.61237243569579447}}, 9: {"": {up: 0.38490017945975047, dn: 0.38490017945975047}}, 10: {"": {up: 0, dn: 0}}, 11: {"": {up: .nan, dn: .nan}}, 12: {"": {up: .nan, dn: .nan}}, 13: {"": {up: .nan, dn: .nan}}, 14: {"": {up: .nan, dn: .nan}}}
+LineColor=blue
+LineStyle=solid
+Path=//eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_ZZJETS:ENERGY=13000/jet_y_pmratio_3
+Title=VBSZZ@NLO(v352)
+# xlow	 xhigh	 val	 errminus	 errplus
+0.000000e+00	3.333334e-01	2.000000e+00	2.449490e+00	2.449490e+00
+3.333333e-01	6.666667e-01	2.000000e+00	2.449490e+00	2.449490e+00
+6.666666e-01	1.000000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+1.000000e+00	1.333334e+00	2.000000e+00	2.449490e+00	2.449490e+00
+1.333333e+00	1.666667e+00	1.000000e+00	8.164966e-01	8.164966e-01
+1.666666e+00	2.000000e+00	8.000000e-01	5.366563e-01	5.366563e-01
+2.000000e+00	2.333334e+00	4.000000e+00	4.472136e+00	4.472136e+00
+2.333333e+00	2.666667e+00	3.333333e-01	3.849002e-01	3.849002e-01
+2.666666e+00	3.000000e+00	5.000000e-01	6.123724e-01	6.123724e-01
+3.000000e+00	3.333334e+00	3.333333e-01	3.849002e-01	3.849002e-01
+3.333333e+00	3.666667e+00	0.000000e+00	0.000000e+00	0.000000e+00
+3.666666e+00	4.000000e+00	nan	nan	nan
+4.000000e+00	4.333334e+00	nan	nan	nan
+4.333333e+00	4.666667e+00	nan	nan	nan
+4.666666e+00	5.000000e+00	nan	nan	nan
+# END HISTO1D
+

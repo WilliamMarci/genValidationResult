@@ -1,0 +1,46 @@
+# BEGIN PLOT
+Legend=1
+LogY=0
+Title=Ratio of prompt muon multiplicity
+XLabel=$N_{\mathrm{muon}}$
+YLabel=$\sigma(\geq N_{\mathrm{muon}})/\sigma(\geq N_{\mathrm{muon}}-1)$
+XMajorTickMarks=10
+XMinorTickMarks=0
+ErrorBands=1
+RemoveOptions=1
+DrawOnly=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_MUONS:ENERGY=13000/muon_multi_ratio_prompt //eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_MUONS:ENERGY=13000/muon_multi_ratio_prompt
+LegendOnly=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_MUONS:ENERGY=13000/muon_multi_ratio_prompt //eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_MUONS:ENERGY=13000/muon_multi_ratio_prompt
+RatioPlot=1
+RatioPlotReference=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_MUONS:ENERGY=13000/muon_multi_ratio_prompt
+RatioPlotYLabel=Ratio
+# END PLOT
+
+# BEGIN HISTO1D //eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_MUONS:ENERGY=13000/muon_multi_ratio_prompt
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 0.041741876132736021, dn: 0.041741876132736021}}, 1: {"": {up: 0.083992105113161603, dn: 0.083992105113161603}}, 2: {"": {up: 0.029888899518821309, dn: 0.029888899518821309}}, 3: {"": {up: 0, dn: 0}}}
+LineColor=red
+LineStyle=solid
+Path=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_MUONS:ENERGY=13000/muon_multi_ratio_prompt
+Title=VBSZZ@NLO(v2918)
+# xlow	 xhigh	 val	 errminus	 errplus
+5.000000e-01	1.500000e+00	5.670000e-01	4.174188e-02	4.174188e-02
+1.500000e+00	2.500000e+00	1.000000e+00	8.399211e-02	8.399211e-02
+2.500000e+00	3.500000e+00	2.310406e-01	2.988890e-02	2.988890e-02
+3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+
+
+# BEGIN HISTO1D //eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_MUONS:ENERGY=13000/muon_multi_ratio_prompt
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 0.040579648307775169, dn: 0.040579648307775169}}, 1: {"": {up: 0.085670587375623872, dn: 0.085670587375623872}}, 2: {"": {up: 0.029531534665395882, dn: 0.029531534665395882}}, 3: {"": {up: 0, dn: 0}}}
+LineColor=blue
+LineStyle=solid
+Path=//eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_MUONS:ENERGY=13000/muon_multi_ratio_prompt
+Title=VBSZZ@NLO(v352)
+# xlow	 xhigh	 val	 errminus	 errplus
+5.000000e-01	1.500000e+00	5.450000e-01	4.057965e-02	4.057965e-02
+1.500000e+00	2.500000e+00	1.000000e+00	8.567059e-02	8.567059e-02
+2.500000e+00	3.500000e+00	2.201835e-01	2.953153e-02	2.953153e-02
+3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+

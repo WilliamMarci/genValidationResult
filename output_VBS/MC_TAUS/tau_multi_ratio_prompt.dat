@@ -1,0 +1,46 @@
+# BEGIN PLOT
+Legend=1
+LogY=0
+Title=Ratio of tau multiplicity
+XLabel=$N_{\mathrm{tau}}$
+YLabel=$\sigma(\geq N_{\mathrm{tau}})/\sigma(\geq N_{\mathrm{tau}}-1)$
+XMajorTickMarks=10
+XMinorTickMarks=0
+ErrorBands=1
+RemoveOptions=1
+DrawOnly=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_ratio_prompt //eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_ratio_prompt
+LegendOnly=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_ratio_prompt //eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_ratio_prompt
+RatioPlot=1
+RatioPlotReference=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_ratio_prompt
+RatioPlotYLabel=Ratio
+# END PLOT
+
+# BEGIN HISTO1D //eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_ratio_prompt
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 0.039781800465335082, dn: 0.039781800465335082}}, 1: {"": {up: 0.086874448552613864, dn: 0.086874448552613864}}, 2: {"": {up: 0.028804119154896755, dn: 0.028804119154896755}}, 3: {"": {up: 0, dn: 0}}}
+LineColor=red
+LineStyle=solid
+Path=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_ratio_prompt
+Title=VBSZZ@NLO(v2918)
+# xlow	 xhigh	 val	 errminus	 errplus
+5.000000e-01	1.500000e+00	5.300000e-01	3.978180e-02	3.978180e-02
+1.500000e+00	2.500000e+00	1.000000e+00	8.687445e-02	8.687445e-02
+2.500000e+00	3.500000e+00	2.075472e-01	2.880412e-02	2.880412e-02
+3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+
+
+# BEGIN HISTO1D //eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_ratio_prompt
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 0.03983513161909992, dn: 0.03983513161909992}}, 1: {"": {up: 0.086792607320549248, dn: 0.086792607320549248}}, 2: {"": {up: 0.027704810937578397, dn: 0.027704810937578397}}, 3: {"": {up: 0, dn: 0}}}
+LineColor=blue
+LineStyle=solid
+Path=//eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_TAUS:ENERGY=13000/tau_multi_ratio_prompt
+Title=VBSZZ@NLO(v352)
+# xlow	 xhigh	 val	 errminus	 errplus
+5.000000e-01	1.500000e+00	5.310000e-01	3.983513e-02	3.983513e-02
+1.500000e+00	2.500000e+00	1.000000e+00	8.679261e-02	8.679261e-02
+2.500000e+00	3.500000e+00	1.958569e-01	2.770481e-02	2.770481e-02
+3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+
