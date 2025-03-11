@@ -5,18 +5,18 @@ Title=Scalar sum of photon $p_\perp$
 XLabel=$\sum{p_\perp^\gamma}$ [GeV]
 YLabel=$1/\sigma \, \mathrm{d}\sigma/\mathrm{d}\sum{p_\perp^\gamma}$ [GeV$^{-1}$]
 RemoveOptions=1
-DrawOnly=//ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/sumPtgamma //ospool/cms-user/youpeng/genvalid/genValidation/mg352VBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/sumPtgamma //ospool/cms-user/youpeng/genvalid/genValidation/mg35xVBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/sumPtgamma
-LegendOnly=//ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/sumPtgamma //ospool/cms-user/youpeng/genvalid/genValidation/mg352VBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/sumPtgamma //ospool/cms-user/youpeng/genvalid/genValidation/mg35xVBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/sumPtgamma
+DrawOnly=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/sumPtgamma //eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/sumPtgamma //eos/home-y/youpeng/valid/genValidation/mg35xVBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/sumPtgamma
+LegendOnly=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/sumPtgamma //eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/sumPtgamma //eos/home-y/youpeng/valid/genValidation/mg35xVBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/sumPtgamma
 RatioPlot=1
-RatioPlotReference=//ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/sumPtgamma
+RatioPlotReference=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/sumPtgamma
 RatioPlotYLabel=Ratio
 # END PLOT
 
-# BEGIN HISTO1D //ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/sumPtgamma
+# BEGIN HISTO1D //eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/sumPtgamma
 ErrorBars=1
 LineColor=red
 LineStyle=solid
-Path=//ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/sumPtgamma
+Path=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/sumPtgamma
 ScaledBy=9.76562500000000020e-07
 Title=VBSZZ@LO(v2918)
 # xlow	 xhigh	 val	 errminus	 errplus
@@ -73,11 +73,11 @@ Title=VBSZZ@LO(v2918)
 # END HISTO1D
 
 
-# BEGIN HISTO1D //ospool/cms-user/youpeng/genvalid/genValidation/mg352VBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/sumPtgamma
+# BEGIN HISTO1D //eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/sumPtgamma
 ErrorBars=1
 LineColor=blue
 LineStyle=solid
-Path=//ospool/cms-user/youpeng/genvalid/genValidation/mg352VBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/sumPtgamma
+Path=//eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/sumPtgamma
 ScaledBy=9.76562500000000020e-07
 Title=VBSZZ@LO(v352)
 # xlow	 xhigh	 val	 errminus	 errplus
@@ -134,11 +134,11 @@ Title=VBSZZ@LO(v352)
 # END HISTO1D
 
 
-# BEGIN HISTO1D //ospool/cms-user/youpeng/genvalid/genValidation/mg35xVBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/sumPtgamma
+# BEGIN HISTO1D //eos/home-y/youpeng/valid/genValidation/mg35xVBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/sumPtgamma
 ErrorBars=1
 LineColor=green
 LineStyle=solid
-Path=//ospool/cms-user/youpeng/genvalid/genValidation/mg35xVBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/sumPtgamma
+Path=//eos/home-y/youpeng/valid/genValidation/mg35xVBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/sumPtgamma
 ScaledBy=9.96492346938775600e-07
 Title=VBSZZ@LO(v35x)
 # xlow	 xhigh	 val	 errminus	 errplus

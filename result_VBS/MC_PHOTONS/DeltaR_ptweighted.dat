@@ -4,18 +4,18 @@ LogY=1
 Title=$p_\perp$-weighted $\Delta{R}$ between photons and associated leptons
 XLabel=$\Delta{R}$
 RemoveOptions=1
-DrawOnly=//ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/DeltaR_ptweighted //ospool/cms-user/youpeng/genvalid/genValidation/mg352VBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/DeltaR_ptweighted //ospool/cms-user/youpeng/genvalid/genValidation/mg35xVBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/DeltaR_ptweighted
-LegendOnly=//ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/DeltaR_ptweighted //ospool/cms-user/youpeng/genvalid/genValidation/mg352VBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/DeltaR_ptweighted //ospool/cms-user/youpeng/genvalid/genValidation/mg35xVBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/DeltaR_ptweighted
+DrawOnly=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/DeltaR_ptweighted //eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/DeltaR_ptweighted //eos/home-y/youpeng/valid/genValidation/mg35xVBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/DeltaR_ptweighted
+LegendOnly=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/DeltaR_ptweighted //eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/DeltaR_ptweighted //eos/home-y/youpeng/valid/genValidation/mg35xVBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/DeltaR_ptweighted
 RatioPlot=1
-RatioPlotReference=//ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/DeltaR_ptweighted
+RatioPlotReference=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/DeltaR_ptweighted
 RatioPlotYLabel=Ratio
 # END PLOT
 
-# BEGIN HISTO1D //ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/DeltaR_ptweighted
+# BEGIN HISTO1D //eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/DeltaR_ptweighted
 ErrorBars=1
 LineColor=red
 LineStyle=solid
-Path=//ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/DeltaR_ptweighted
+Path=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/DeltaR_ptweighted
 ScaledBy=6.84361283902830260e-09
 Title=VBSZZ@LO(v2918)
 # xlow	 xhigh	 val	 errminus	 errplus
@@ -72,11 +72,11 @@ Title=VBSZZ@LO(v2918)
 # END HISTO1D
 
 
-# BEGIN HISTO1D //ospool/cms-user/youpeng/genvalid/genValidation/mg352VBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/DeltaR_ptweighted
+# BEGIN HISTO1D //eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/DeltaR_ptweighted
 ErrorBars=1
 LineColor=blue
 LineStyle=solid
-Path=//ospool/cms-user/youpeng/genvalid/genValidation/mg352VBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/DeltaR_ptweighted
+Path=//eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/DeltaR_ptweighted
 ScaledBy=6.84942419014155000e-09
 Title=VBSZZ@LO(v352)
 # xlow	 xhigh	 val	 errminus	 errplus
@@ -133,11 +133,11 @@ Title=VBSZZ@LO(v352)
 # END HISTO1D
 
 
-# BEGIN HISTO1D //ospool/cms-user/youpeng/genvalid/genValidation/mg35xVBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/DeltaR_ptweighted
+# BEGIN HISTO1D //eos/home-y/youpeng/valid/genValidation/mg35xVBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/DeltaR_ptweighted
 ErrorBars=1
 LineColor=green
 LineStyle=solid
-Path=//ospool/cms-user/youpeng/genvalid/genValidation/mg35xVBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/DeltaR_ptweighted
+Path=//eos/home-y/youpeng/valid/genValidation/mg35xVBS_merged.yoda.gz/MC_PHOTONS:ENERGY=13600/DeltaR_ptweighted
 ScaledBy=6.99575818498635682e-09
 Title=VBSZZ@LO(v35x)
 # xlow	 xhigh	 val	 errminus	 errplus

@@ -5,19 +5,19 @@ Title=Rapidity $+/-$ ratio of second jet
 XLabel=$y(\mathrm{jet~2})_+/y(\mathrm{jet~2})_-$
 YLabel=$|y(\mathrm{jet~2}|$
 RemoveOptions=1
-DrawOnly=//ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_y_pmratio_2 //ospool/cms-user/youpeng/genvalid/genValidation/mg352VBS_merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_y_pmratio_2 //ospool/cms-user/youpeng/genvalid/genValidation/mg35xVBS_merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_y_pmratio_2
-LegendOnly=//ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_y_pmratio_2 //ospool/cms-user/youpeng/genvalid/genValidation/mg352VBS_merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_y_pmratio_2 //ospool/cms-user/youpeng/genvalid/genValidation/mg35xVBS_merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_y_pmratio_2
+DrawOnly=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_y_pmratio_2 //eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_y_pmratio_2 //eos/home-y/youpeng/valid/genValidation/mg35xVBS_merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_y_pmratio_2
+LegendOnly=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_y_pmratio_2 //eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_y_pmratio_2 //eos/home-y/youpeng/valid/genValidation/mg35xVBS_merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_y_pmratio_2
 RatioPlot=1
-RatioPlotReference=//ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_y_pmratio_2
+RatioPlotReference=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_y_pmratio_2
 RatioPlotYLabel=Ratio
 # END PLOT
 
-# BEGIN HISTO1D //ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_y_pmratio_2
+# BEGIN HISTO1D //eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_y_pmratio_2
 ErrorBars=1
 ErrorBreakdown={0: {"": {up: 0.012521119406842899, dn: 0.012521119406842899}}, 1: {"": {up: 0.012325875785191799, dn: 0.012325875785191799}}, 2: {"": {up: 0.011910390330751889, dn: 0.011910390330751889}}, 3: {"": {up: 0.012151145674202555, dn: 0.012151145674202555}}, 4: {"": {up: 0.012218514078879819, dn: 0.012218514078879819}}, 5: {"": {up: 0.012248606108371521, dn: 0.012248606108371521}}, 6: {"": {up: 0.012215754017502956, dn: 0.012215754017502956}}, 7: {"": {up: 0.012306585431208064, dn: 0.012306585431208064}}, 8: {"": {up: 0.012484642106502372, dn: 0.012484642106502372}}, 9: {"": {up: 0.012907585920773051, dn: 0.012907585920773051}}, 10: {"": {up: 0.013116310407598574, dn: 0.013116310407598574}}, 11: {"": {up: 0.013317421708275169, dn: 0.013317421708275169}}, 12: {"": {up: 0.01405429259247549, dn: 0.01405429259247549}}, 13: {"": {up: 0.014226790162134151, dn: 0.014226790162134151}}, 14: {"": {up: 0.015740221475933784, dn: 0.015740221475933784}}, 15: {"": {up: 0.017417027153289889, dn: 0.017417027153289889}}, 16: {"": {up: 0.01939991899768749, dn: 0.01939991899768749}}, 17: {"": {up: 0.022105404653805123, dn: 0.022105404653805123}}, 18: {"": {up: 0.024519712373618156, dn: 0.024519712373618156}}, 19: {"": {up: 0.029777499541110829, dn: 0.029777499541110829}}, 20: {"": {up: 0.03435926541546435, dn: 0.03435926541546435}}, 21: {"": {up: 0.044654271912102646, dn: 0.044654271912102646}}, 22: {"": {up: 0.056264472365969626, dn: 0.056264472365969626}}, 23: {"": {up: 0.087521364032380436, dn: 0.087521364032380436}}, 24: {"": {up: 0.12660530364343048, dn: 0.12660530364343048}}}
 LineColor=red
 LineStyle=solid
-Path=//ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_y_pmratio_2
+Path=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_y_pmratio_2
 Title=VBSZZ@LO(v2918)
 # xlow	 xhigh	 val	 errminus	 errplus
 0.000000e+00	2.000000e-01	1.025657e+00	1.252112e-02	1.252112e-02
@@ -48,12 +48,12 @@ Title=VBSZZ@LO(v2918)
 # END HISTO1D
 
 
-# BEGIN HISTO1D //ospool/cms-user/youpeng/genvalid/genValidation/mg352VBS_merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_y_pmratio_2
+# BEGIN HISTO1D //eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_y_pmratio_2
 ErrorBars=1
 ErrorBreakdown={0: {"": {up: 0.012165716997837993, dn: 0.012165716997837993}}, 1: {"": {up: 0.012559255672996671, dn: 0.012559255672996671}}, 2: {"": {up: 0.011970050106812411, dn: 0.011970050106812411}}, 3: {"": {up: 0.012095808214032834, dn: 0.012095808214032834}}, 4: {"": {up: 0.012310937178892234, dn: 0.012310937178892234}}, 5: {"": {up: 0.012062536604289331, dn: 0.012062536604289331}}, 6: {"": {up: 0.012375932323522744, dn: 0.012375932323522744}}, 7: {"": {up: 0.012321048371364796, dn: 0.012321048371364796}}, 8: {"": {up: 0.012509538701703118, dn: 0.012509538701703118}}, 9: {"": {up: 0.012500346239585847, dn: 0.012500346239585847}}, 10: {"": {up: 0.012623961579529178, dn: 0.012623961579529178}}, 11: {"": {up: 0.013146839911566403, dn: 0.013146839911566403}}, 12: {"": {up: 0.013992458546186044, dn: 0.013992458546186044}}, 13: {"": {up: 0.014822141004364492, dn: 0.014822141004364492}}, 14: {"": {up: 0.015852870581709064, dn: 0.015852870581709064}}, 15: {"": {up: 0.017381448597040539, dn: 0.017381448597040539}}, 16: {"": {up: 0.018374579997128136, dn: 0.018374579997128136}}, 17: {"": {up: 0.0214974833570859, dn: 0.0214974833570859}}, 18: {"": {up: 0.024335829866053357, dn: 0.024335829866053357}}, 19: {"": {up: 0.028863504676949335, dn: 0.028863504676949335}}, 20: {"": {up: 0.035163549520829437, dn: 0.035163549520829437}}, 21: {"": {up: 0.046984615297771037, dn: 0.046984615297771037}}, 22: {"": {up: 0.05724135696334326, dn: 0.05724135696334326}}, 23: {"": {up: 0.078223343289478761, dn: 0.078223343289478761}}, 24: {"": {up: 0.10895282967271171, dn: 0.10895282967271171}}}
 LineColor=blue
 LineStyle=solid
-Path=//ospool/cms-user/youpeng/genvalid/genValidation/mg352VBS_merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_y_pmratio_2
+Path=//eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_y_pmratio_2
 Title=VBSZZ@LO(v352)
 # xlow	 xhigh	 val	 errminus	 errplus
 0.000000e+00	2.000000e-01	1.001919e+00	1.216572e-02	1.216572e-02
@@ -84,12 +84,12 @@ Title=VBSZZ@LO(v352)
 # END HISTO1D
 
 
-# BEGIN HISTO1D //ospool/cms-user/youpeng/genvalid/genValidation/mg35xVBS_merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_y_pmratio_2
+# BEGIN HISTO1D //eos/home-y/youpeng/valid/genValidation/mg35xVBS_merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_y_pmratio_2
 ErrorBars=1
 ErrorBreakdown={0: {"": {up: 0.012240095511110294, dn: 0.012240095511110294}}, 1: {"": {up: 0.012304899077795989, dn: 0.012304899077795989}}, 2: {"": {up: 0.012193162372529766, dn: 0.012193162372529766}}, 3: {"": {up: 0.012407250255235354, dn: 0.012407250255235354}}, 4: {"": {up: 0.012214753068280891, dn: 0.012214753068280891}}, 5: {"": {up: 0.012515146765169979, dn: 0.012515146765169979}}, 6: {"": {up: 0.012171789022113895, dn: 0.012171789022113895}}, 7: {"": {up: 0.012420443152826517, dn: 0.012420443152826517}}, 8: {"": {up: 0.012700560637108652, dn: 0.012700560637108652}}, 9: {"": {up: 0.013030699614778912, dn: 0.013030699614778912}}, 10: {"": {up: 0.013117064202569594, dn: 0.013117064202569594}}, 11: {"": {up: 0.013613779220135524, dn: 0.013613779220135524}}, 12: {"": {up: 0.013949708898747469, dn: 0.013949708898747469}}, 13: {"": {up: 0.014745945824806003, dn: 0.014745945824806003}}, 14: {"": {up: 0.015593125245957155, dn: 0.015593125245957155}}, 15: {"": {up: 0.017314710121727934, dn: 0.017314710121727934}}, 16: {"": {up: 0.019956664930507365, dn: 0.019956664930507365}}, 17: {"": {up: 0.022426718966234764, dn: 0.022426718966234764}}, 18: {"": {up: 0.02446646422552802, dn: 0.02446646422552802}}, 19: {"": {up: 0.02884804406197829, dn: 0.02884804406197829}}, 20: {"": {up: 0.036881795621979969, dn: 0.036881795621979969}}, 21: {"": {up: 0.047378202656695872, dn: 0.047378202656695872}}, 22: {"": {up: 0.060688958056792842, dn: 0.060688958056792842}}, 23: {"": {up: 0.073261199790223455, dn: 0.073261199790223455}}, 24: {"": {up: 0.11107644376231186, dn: 0.11107644376231186}}}
 LineColor=green
 LineStyle=solid
-Path=//ospool/cms-user/youpeng/genvalid/genValidation/mg35xVBS_merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_y_pmratio_2
+Path=//eos/home-y/youpeng/valid/genValidation/mg35xVBS_merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_y_pmratio_2
 Title=VBSZZ@LO(v35x)
 # xlow	 xhigh	 val	 errminus	 errplus
 0.000000e+00	2.000000e-01	9.960817e-01	1.224010e-02	1.224010e-02

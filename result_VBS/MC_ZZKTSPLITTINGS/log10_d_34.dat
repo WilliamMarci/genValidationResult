@@ -8,18 +8,18 @@ LegendXPos=0.15
 LegendYPos=0.5
 Rebin=2
 RemoveOptions=1
-DrawOnly=//ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_ZZKTSPLITTINGS:ENERGY=13600/log10_d_34 //ospool/cms-user/youpeng/genvalid/genValidation/mg352VBS_merged.yoda.gz/MC_ZZKTSPLITTINGS:ENERGY=13600/log10_d_34 //ospool/cms-user/youpeng/genvalid/genValidation/mg35xVBS_merged.yoda.gz/MC_ZZKTSPLITTINGS:ENERGY=13600/log10_d_34
-LegendOnly=//ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_ZZKTSPLITTINGS:ENERGY=13600/log10_d_34 //ospool/cms-user/youpeng/genvalid/genValidation/mg352VBS_merged.yoda.gz/MC_ZZKTSPLITTINGS:ENERGY=13600/log10_d_34 //ospool/cms-user/youpeng/genvalid/genValidation/mg35xVBS_merged.yoda.gz/MC_ZZKTSPLITTINGS:ENERGY=13600/log10_d_34
+DrawOnly=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_ZZKTSPLITTINGS:ENERGY=13600/log10_d_34 //eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_ZZKTSPLITTINGS:ENERGY=13600/log10_d_34 //eos/home-y/youpeng/valid/genValidation/mg35xVBS_merged.yoda.gz/MC_ZZKTSPLITTINGS:ENERGY=13600/log10_d_34
+LegendOnly=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_ZZKTSPLITTINGS:ENERGY=13600/log10_d_34 //eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_ZZKTSPLITTINGS:ENERGY=13600/log10_d_34 //eos/home-y/youpeng/valid/genValidation/mg35xVBS_merged.yoda.gz/MC_ZZKTSPLITTINGS:ENERGY=13600/log10_d_34
 RatioPlot=1
-RatioPlotReference=//ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_ZZKTSPLITTINGS:ENERGY=13600/log10_d_34
+RatioPlotReference=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_ZZKTSPLITTINGS:ENERGY=13600/log10_d_34
 RatioPlotYLabel=Ratio
 # END PLOT
 
-# BEGIN HISTO1D //ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_ZZKTSPLITTINGS:ENERGY=13600/log10_d_34
+# BEGIN HISTO1D //eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_ZZKTSPLITTINGS:ENERGY=13600/log10_d_34
 ErrorBars=1
 LineColor=red
 LineStyle=solid
-Path=//ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_ZZKTSPLITTINGS:ENERGY=13600/log10_d_34
+Path=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_ZZKTSPLITTINGS:ENERGY=13600/log10_d_34
 ScaledBy=1.07182617187499956e-09
 Title=VBSZZ@LO(v2918)
 # xlow	 xhigh	 val	 errminus	 errplus
@@ -126,11 +126,11 @@ Title=VBSZZ@LO(v2918)
 # END HISTO1D
 
 
-# BEGIN HISTO1D //ospool/cms-user/youpeng/genvalid/genValidation/mg352VBS_merged.yoda.gz/MC_ZZKTSPLITTINGS:ENERGY=13600/log10_d_34
+# BEGIN HISTO1D //eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_ZZKTSPLITTINGS:ENERGY=13600/log10_d_34
 ErrorBars=1
 LineColor=blue
 LineStyle=solid
-Path=//ospool/cms-user/youpeng/genvalid/genValidation/mg352VBS_merged.yoda.gz/MC_ZZKTSPLITTINGS:ENERGY=13600/log10_d_34
+Path=//eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_ZZKTSPLITTINGS:ENERGY=13600/log10_d_34
 ScaledBy=1.07425781250000051e-09
 Title=VBSZZ@LO(v352)
 # xlow	 xhigh	 val	 errminus	 errplus
@@ -237,11 +237,11 @@ Title=VBSZZ@LO(v352)
 # END HISTO1D
 
 
-# BEGIN HISTO1D //ospool/cms-user/youpeng/genvalid/genValidation/mg35xVBS_merged.yoda.gz/MC_ZZKTSPLITTINGS:ENERGY=13600/log10_d_34
+# BEGIN HISTO1D //eos/home-y/youpeng/valid/genValidation/mg35xVBS_merged.yoda.gz/MC_ZZKTSPLITTINGS:ENERGY=13600/log10_d_34
 ErrorBars=1
 LineColor=green
 LineStyle=solid
-Path=//ospool/cms-user/youpeng/genvalid/genValidation/mg35xVBS_merged.yoda.gz/MC_ZZKTSPLITTINGS:ENERGY=13600/log10_d_34
+Path=//eos/home-y/youpeng/valid/genValidation/mg35xVBS_merged.yoda.gz/MC_ZZKTSPLITTINGS:ENERGY=13600/log10_d_34
 ScaledBy=5.51937791219804204e-10
 Title=VBSZZ@LO(v35x)
 # xlow	 xhigh	 val	 errminus	 errplus

@@ -5,18 +5,18 @@ Title=Rapidity of second tau
 XLabel=$y(\tau\mathrm{2})$
 YLabel=$\mathrm{d}\sigma/\mathrm{d}y(\tau\mathrm{2})$ [pb]
 RemoveOptions=1
-DrawOnly=//ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_y_2 //ospool/cms-user/youpeng/genvalid/genValidation/mg352VBS_merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_y_2 //ospool/cms-user/youpeng/genvalid/genValidation/mg35xVBS_merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_y_2
-LegendOnly=//ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_y_2 //ospool/cms-user/youpeng/genvalid/genValidation/mg352VBS_merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_y_2 //ospool/cms-user/youpeng/genvalid/genValidation/mg35xVBS_merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_y_2
+DrawOnly=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_y_2 //eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_y_2 //eos/home-y/youpeng/valid/genValidation/mg35xVBS_merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_y_2
+LegendOnly=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_y_2 //eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_y_2 //eos/home-y/youpeng/valid/genValidation/mg35xVBS_merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_y_2
 RatioPlot=1
-RatioPlotReference=//ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_y_2
+RatioPlotReference=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_y_2
 RatioPlotYLabel=Ratio
 # END PLOT
 
-# BEGIN HISTO1D //ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_y_2
+# BEGIN HISTO1D //eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_y_2
 ErrorBars=1
 LineColor=red
 LineStyle=solid
-Path=//ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_y_2
+Path=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_y_2
 ScaledBy=1.07182617187499956e-09
 Title=VBSZZ@LO(v2918)
 # xlow	 xhigh	 val	 errminus	 errplus
@@ -73,11 +73,11 @@ Title=VBSZZ@LO(v2918)
 # END HISTO1D
 
 
-# BEGIN HISTO1D //ospool/cms-user/youpeng/genvalid/genValidation/mg352VBS_merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_y_2
+# BEGIN HISTO1D //eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_y_2
 ErrorBars=1
 LineColor=blue
 LineStyle=solid
-Path=//ospool/cms-user/youpeng/genvalid/genValidation/mg352VBS_merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_y_2
+Path=//eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_y_2
 ScaledBy=1.07425781250000051e-09
 Title=VBSZZ@LO(v352)
 # xlow	 xhigh	 val	 errminus	 errplus
@@ -134,11 +134,11 @@ Title=VBSZZ@LO(v352)
 # END HISTO1D
 
 
-# BEGIN HISTO1D //ospool/cms-user/youpeng/genvalid/genValidation/mg35xVBS_merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_y_2
+# BEGIN HISTO1D //eos/home-y/youpeng/valid/genValidation/mg35xVBS_merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_y_2
 ErrorBars=1
 LineColor=green
 LineStyle=solid
-Path=//ospool/cms-user/youpeng/genvalid/genValidation/mg35xVBS_merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_y_2
+Path=//eos/home-y/youpeng/valid/genValidation/mg35xVBS_merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_y_2
 ScaledBy=5.51937791219804204e-10
 Title=VBSZZ@LO(v35x)
 # xlow	 xhigh	 val	 errminus	 errplus

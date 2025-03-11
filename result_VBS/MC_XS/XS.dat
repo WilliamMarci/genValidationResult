@@ -9,43 +9,43 @@ XCustomMajorTicks=0.	$\quad$
 XMinorTickMarks=0
 LegendAlign=r
 RemoveOptions=1
-DrawOnly=//ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_XS:ENERGY=13600/XS //ospool/cms-user/youpeng/genvalid/genValidation/mg352VBS_merged.yoda.gz/MC_XS:ENERGY=13600/XS //ospool/cms-user/youpeng/genvalid/genValidation/mg35xVBS_merged.yoda.gz/MC_XS:ENERGY=13600/XS
-LegendOnly=//ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_XS:ENERGY=13600/XS //ospool/cms-user/youpeng/genvalid/genValidation/mg352VBS_merged.yoda.gz/MC_XS:ENERGY=13600/XS //ospool/cms-user/youpeng/genvalid/genValidation/mg35xVBS_merged.yoda.gz/MC_XS:ENERGY=13600/XS
+DrawOnly=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_XS:ENERGY=13600/XS //eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_XS:ENERGY=13600/XS //eos/home-y/youpeng/valid/genValidation/mg35xVBS_merged.yoda.gz/MC_XS:ENERGY=13600/XS
+LegendOnly=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_XS:ENERGY=13600/XS //eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_XS:ENERGY=13600/XS //eos/home-y/youpeng/valid/genValidation/mg35xVBS_merged.yoda.gz/MC_XS:ENERGY=13600/XS
 RatioPlot=1
-RatioPlotReference=//ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_XS:ENERGY=13600/XS
+RatioPlotReference=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_XS:ENERGY=13600/XS
 RatioPlotYLabel=Ratio
 # END PLOT
 
-# BEGIN HISTO1D //ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_XS:ENERGY=13600/XS
+# BEGIN HISTO1D //eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_XS:ENERGY=13600/XS
 ErrorBars=1
 ErrorBreakdown={0: {"": {up: 0, dn: 0}}}
 LineColor=red
 LineStyle=solid
-Path=//ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_XS:ENERGY=13600/XS
+Path=//eos/home-y/youpeng/valid/genValidation/masterVBS_merged.yoda.gz/MC_XS:ENERGY=13600/XS
 Title=VBSZZ@LO(v2918)
 # xlow	 xhigh	 val	 errminus	 errplus
 -5.000000e-01	5.000000e-01	1.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //ospool/cms-user/youpeng/genvalid/genValidation/mg352VBS_merged.yoda.gz/MC_XS:ENERGY=13600/XS
+# BEGIN HISTO1D //eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_XS:ENERGY=13600/XS
 ErrorBars=1
 ErrorBreakdown={0: {"": {up: 0, dn: 0}}}
 LineColor=blue
 LineStyle=solid
-Path=//ospool/cms-user/youpeng/genvalid/genValidation/mg352VBS_merged.yoda.gz/MC_XS:ENERGY=13600/XS
+Path=//eos/home-y/youpeng/valid/genValidation/mg352VBS_merged.yoda.gz/MC_XS:ENERGY=13600/XS
 Title=VBSZZ@LO(v352)
 # xlow	 xhigh	 val	 errminus	 errplus
 -5.000000e-01	5.000000e-01	1.000000e+00	0.000000e+00	0.000000e+00
 # END HISTO1D
 
 
-# BEGIN HISTO1D //ospool/cms-user/youpeng/genvalid/genValidation/mg35xVBS_merged.yoda.gz/MC_XS:ENERGY=13600/XS
+# BEGIN HISTO1D //eos/home-y/youpeng/valid/genValidation/mg35xVBS_merged.yoda.gz/MC_XS:ENERGY=13600/XS
 ErrorBars=1
 ErrorBreakdown={0: {"": {up: 0, dn: 0}}}
 LineColor=green
 LineStyle=solid
-Path=//ospool/cms-user/youpeng/genvalid/genValidation/mg35xVBS_merged.yoda.gz/MC_XS:ENERGY=13600/XS
+Path=//eos/home-y/youpeng/valid/genValidation/mg35xVBS_merged.yoda.gz/MC_XS:ENERGY=13600/XS
 Title=VBSZZ@LO(v35x)
 # xlow	 xhigh	 val	 errminus	 errplus
 -5.000000e-01	5.000000e-01	1.000000e+00	0.000000e+00	0.000000e+00
