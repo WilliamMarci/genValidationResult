@@ -1,0 +1,70 @@
+# BEGIN PLOT
+Legend=1
+LogY=1
+Title=Exclusive jet multiplicity
+XLabel=$N_{\mathrm{jet}}$
+YLabel=$\sigma(N_{\mathrm{jet}})$ [pb]
+XMajorTickMarks=10
+XMinorTickMarks=0
+ErrorBands=1
+RemoveOptions=1
+DrawOnly=//ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_JETS:ENERGY=13600/jet_multi_exclusive //ospool/cms-user/youpeng/genvalid/genValidation/mg352VBS_merged.yoda.gz/MC_JETS:ENERGY=13600/jet_multi_exclusive //ospool/cms-user/youpeng/genvalid/genValidation/mg35xVBS_merged.yoda.gz/MC_JETS:ENERGY=13600/jet_multi_exclusive
+LegendOnly=//ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_JETS:ENERGY=13600/jet_multi_exclusive //ospool/cms-user/youpeng/genvalid/genValidation/mg352VBS_merged.yoda.gz/MC_JETS:ENERGY=13600/jet_multi_exclusive //ospool/cms-user/youpeng/genvalid/genValidation/mg35xVBS_merged.yoda.gz/MC_JETS:ENERGY=13600/jet_multi_exclusive
+RatioPlot=1
+RatioPlotReference=//ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_JETS:ENERGY=13600/jet_multi_exclusive
+RatioPlotYLabel=Ratio
+# END PLOT
+
+# BEGIN HISTO1D //ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_JETS:ENERGY=13600/jet_multi_exclusive
+ErrorBars=1
+LineColor=red
+LineStyle=solid
+Path=//ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_JETS:ENERGY=13600/jet_multi_exclusive
+ScaledBy=1.07182617187499956e-09
+Title=VBSZZ@LO(v2918)
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	3.215479e-09	1.856457e-09	1.856457e-09
+5.000000e-01	1.500000e+00	5.144766e-08	7.425829e-09	7.425829e-09
+1.500000e+00	2.500000e+00	1.572369e-06	4.105248e-08	4.105248e-08
+2.500000e+00	3.500000e+00	1.909351e-05	1.430557e-07	1.430557e-07
+3.500000e+00	4.500000e+00	1.116328e-04	3.459061e-07	3.459061e-07
+4.500000e+00	5.500000e+00	3.133162e-04	5.795002e-07	5.795002e-07
+5.500000e+00	6.500000e+00	3.957547e-04	6.512912e-07	6.512912e-07
+# END HISTO1D
+
+
+# BEGIN HISTO1D //ospool/cms-user/youpeng/genvalid/genValidation/mg352VBS_merged.yoda.gz/MC_JETS:ENERGY=13600/jet_multi_exclusive
+ErrorBars=1
+LineColor=blue
+LineStyle=solid
+Path=//ospool/cms-user/youpeng/genvalid/genValidation/mg352VBS_merged.yoda.gz/MC_JETS:ENERGY=13600/jet_multi_exclusive
+ScaledBy=1.07425781250000051e-09
+Title=VBSZZ@LO(v352)
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	3.222773e-09	1.860669e-09	1.860669e-09
+5.000000e-01	1.500000e+00	6.767824e-08	8.526657e-09	8.526657e-09
+1.500000e+00	2.500000e+00	1.579159e-06	4.118767e-08	4.118767e-08
+2.500000e+00	3.500000e+00	1.898858e-05	1.428238e-07	1.428238e-07
+3.500000e+00	4.500000e+00	1.119817e-04	3.468389e-07	3.468389e-07
+4.500000e+00	5.500000e+00	3.152786e-04	5.819711e-07	5.819711e-07
+5.500000e+00	6.500000e+00	3.963270e-04	6.525009e-07	6.525009e-07
+# END HISTO1D
+
+
+# BEGIN HISTO1D //ospool/cms-user/youpeng/genvalid/genValidation/mg35xVBS_merged.yoda.gz/MC_JETS:ENERGY=13600/jet_multi_exclusive
+ErrorBars=1
+LineColor=green
+LineStyle=solid
+Path=//ospool/cms-user/youpeng/genvalid/genValidation/mg35xVBS_merged.yoda.gz/MC_JETS:ENERGY=13600/jet_multi_exclusive
+ScaledBy=5.51937791219804204e-10
+Title=VBSZZ@LO(v35x)
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	5.519378e-10	5.519378e-10	5.519378e-10
+5.000000e-01	1.500000e+00	2.925270e-08	4.018167e-09	4.018167e-09
+1.500000e+00	2.500000e+00	8.240431e-07	2.132652e-08	2.132652e-08
+2.500000e+00	3.500000e+00	9.511544e-06	7.245537e-08	7.245537e-08
+3.500000e+00	4.500000e+00	5.634954e-05	1.763560e-07	1.763560e-07
+4.500000e+00	5.500000e+00	1.580816e-04	2.953832e-07	2.953832e-07
+5.500000e+00	6.500000e+00	1.996999e-04	3.319968e-07	3.319968e-07
+# END HISTO1D
+

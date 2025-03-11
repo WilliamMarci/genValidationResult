@@ -1,0 +1,53 @@
+# BEGIN PLOT
+Legend=1
+LogY=0
+Title=Number of generated events
+XLabel=
+YLabel=$N$
+XCustomMajorTicks=0.5	$\quad$
+XMinorTickMarks=0
+LegendXPos=0.05
+LegendYPos=0.15
+RemoveOptions=1
+DrawOnly=//ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_XS:ENERGY=13600/N //ospool/cms-user/youpeng/genvalid/genValidation/mg352VBS_merged.yoda.gz/MC_XS:ENERGY=13600/N //ospool/cms-user/youpeng/genvalid/genValidation/mg35xVBS_merged.yoda.gz/MC_XS:ENERGY=13600/N
+LegendOnly=//ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_XS:ENERGY=13600/N //ospool/cms-user/youpeng/genvalid/genValidation/mg352VBS_merged.yoda.gz/MC_XS:ENERGY=13600/N //ospool/cms-user/youpeng/genvalid/genValidation/mg35xVBS_merged.yoda.gz/MC_XS:ENERGY=13600/N
+RatioPlot=1
+RatioPlotReference=//ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_XS:ENERGY=13600/N
+RatioPlotYLabel=Ratio
+# END PLOT
+
+# BEGIN HISTO1D //ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_XS:ENERGY=13600/N
+ErrorBars=1
+LineColor=red
+LineStyle=solid
+Path=//ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_XS:ENERGY=13600/N
+ScaledBy=1.00000000000000000e+00
+Title=VBSZZ@LO(v2918)
+# xlow	 xhigh	 val	 errminus	 errplus
+0.000000e+00	1.000000e+00	1.024000e+06	1.011929e+03	1.011929e+03
+# END HISTO1D
+
+
+# BEGIN HISTO1D //ospool/cms-user/youpeng/genvalid/genValidation/mg352VBS_merged.yoda.gz/MC_XS:ENERGY=13600/N
+ErrorBars=1
+LineColor=blue
+LineStyle=solid
+Path=//ospool/cms-user/youpeng/genvalid/genValidation/mg352VBS_merged.yoda.gz/MC_XS:ENERGY=13600/N
+ScaledBy=1.00000000000000000e+00
+Title=VBSZZ@LO(v352)
+# xlow	 xhigh	 val	 errminus	 errplus
+0.000000e+00	1.000000e+00	1.024000e+06	1.011929e+03	1.011929e+03
+# END HISTO1D
+
+
+# BEGIN HISTO1D //ospool/cms-user/youpeng/genvalid/genValidation/mg35xVBS_merged.yoda.gz/MC_XS:ENERGY=13600/N
+ErrorBars=1
+LineColor=green
+LineStyle=solid
+Path=//ospool/cms-user/youpeng/genvalid/genValidation/mg35xVBS_merged.yoda.gz/MC_XS:ENERGY=13600/N
+ScaledBy=1.00000000000000000e+00
+Title=VBSZZ@LO(v35x)
+# xlow	 xhigh	 val	 errminus	 errplus
+0.000000e+00	1.000000e+00	1.003520e+06	1.001758e+03	1.001758e+03
+# END HISTO1D
+

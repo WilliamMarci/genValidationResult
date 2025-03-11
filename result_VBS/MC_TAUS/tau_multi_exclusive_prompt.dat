@@ -1,0 +1,64 @@
+# BEGIN PLOT
+Legend=1
+LogY=1
+Title=Exclusive tau multiplicity
+XLabel=$N_{\mathrm{tau}}$
+YLabel=$\sigma(N_{\mathrm{tau}})$ [pb]
+XMajorTickMarks=10
+XMinorTickMarks=0
+ErrorBands=1
+RemoveOptions=1
+DrawOnly=//ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_multi_exclusive_prompt //ospool/cms-user/youpeng/genvalid/genValidation/mg352VBS_merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_multi_exclusive_prompt //ospool/cms-user/youpeng/genvalid/genValidation/mg35xVBS_merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_multi_exclusive_prompt
+LegendOnly=//ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_multi_exclusive_prompt //ospool/cms-user/youpeng/genvalid/genValidation/mg352VBS_merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_multi_exclusive_prompt //ospool/cms-user/youpeng/genvalid/genValidation/mg35xVBS_merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_multi_exclusive_prompt
+RatioPlot=1
+RatioPlotReference=//ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_multi_exclusive_prompt
+RatioPlotYLabel=Ratio
+# END PLOT
+
+# BEGIN HISTO1D //ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_multi_exclusive_prompt
+ErrorBars=1
+LineColor=red
+LineStyle=solid
+Path=//ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_multi_exclusive_prompt
+ScaledBy=1.07182617187499956e-09
+Title=VBSZZ@LO(v2918)
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	4.883690e-04	7.234962e-07	7.234962e-07
+5.000000e-01	1.500000e+00	3.965757e-08	6.519664e-09	6.519664e-09
+1.500000e+00	2.500000e+00	4.874097e-04	7.227852e-07	7.227852e-07
+2.500000e+00	3.500000e+00	1.179009e-08	3.554845e-09	3.554845e-09
+3.500000e+00	4.500000e+00	1.217048e-04	3.611736e-07	3.611736e-07
+# END HISTO1D
+
+
+# BEGIN HISTO1D //ospool/cms-user/youpeng/genvalid/genValidation/mg352VBS_merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_multi_exclusive_prompt
+ErrorBars=1
+LineColor=blue
+LineStyle=solid
+Path=//ospool/cms-user/youpeng/genvalid/genValidation/mg352VBS_merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_multi_exclusive_prompt
+ScaledBy=1.07425781250000051e-09
+Title=VBSZZ@LO(v352)
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	4.895382e-04	7.251829e-07	7.251829e-07
+5.000000e-01	1.500000e+00	2.793070e-08	5.477662e-09	5.477662e-09
+1.500000e+00	2.500000e+00	4.882018e-04	7.241924e-07	7.241924e-07
+2.500000e+00	3.500000e+00	1.611387e-08	4.160583e-09	4.160583e-09
+3.500000e+00	4.500000e+00	1.222430e-04	3.623817e-07	3.623817e-07
+# END HISTO1D
+
+
+# BEGIN HISTO1D //ospool/cms-user/youpeng/genvalid/genValidation/mg35xVBS_merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_multi_exclusive_prompt
+ErrorBars=1
+LineColor=green
+LineStyle=solid
+Path=//ospool/cms-user/youpeng/genvalid/genValidation/mg35xVBS_merged.yoda.gz/MC_TAUS:ENERGY=13600/tau_multi_exclusive_prompt
+ScaledBy=5.51937791219804204e-10
+Title=VBSZZ@LO(v35x)
+# xlow	 xhigh	 val	 errminus	 errplus
+-5.000000e-01	5.000000e-01	2.466213e-04	3.689439e-07	3.689439e-07
+5.000000e-01	1.500000e+00	1.876588e-08	3.218323e-09	3.218323e-09
+1.500000e+00	2.500000e+00	2.458585e-04	3.683729e-07	3.683729e-07
+2.500000e+00	3.500000e+00	7.727129e-09	2.065162e-09	2.065162e-09
+3.500000e+00	4.500000e+00	6.136941e-05	1.840437e-07	1.840437e-07
+# END HISTO1D
+

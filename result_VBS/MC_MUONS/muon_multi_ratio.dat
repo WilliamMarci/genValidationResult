@@ -1,0 +1,61 @@
+# BEGIN PLOT
+Legend=1
+LogY=0
+Title=Ratio of muon multiplicity
+XLabel=$N_{\mathrm{muon}}$
+YLabel=$\sigma(\geq N_{\mathrm{muon}})/\sigma(\geq N_{\mathrm{muon}}-1)$
+XMajorTickMarks=10
+XMinorTickMarks=0
+ErrorBands=1
+RemoveOptions=1
+DrawOnly=//ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_MUONS:ENERGY=13600/muon_multi_ratio //ospool/cms-user/youpeng/genvalid/genValidation/mg352VBS_merged.yoda.gz/MC_MUONS:ENERGY=13600/muon_multi_ratio //ospool/cms-user/youpeng/genvalid/genValidation/mg35xVBS_merged.yoda.gz/MC_MUONS:ENERGY=13600/muon_multi_ratio
+LegendOnly=//ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_MUONS:ENERGY=13600/muon_multi_ratio //ospool/cms-user/youpeng/genvalid/genValidation/mg352VBS_merged.yoda.gz/MC_MUONS:ENERGY=13600/muon_multi_ratio //ospool/cms-user/youpeng/genvalid/genValidation/mg35xVBS_merged.yoda.gz/MC_MUONS:ENERGY=13600/muon_multi_ratio
+RatioPlot=1
+RatioPlotReference=//ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_MUONS:ENERGY=13600/muon_multi_ratio
+RatioPlotYLabel=Ratio
+# END PLOT
+
+# BEGIN HISTO1D //ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_MUONS:ENERGY=13600/muon_multi_ratio
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 0.0015434732057510974, dn: 0.0015434732057510974}}, 1: {"": {up: 0.0020282135575811311, dn: 0.0020282135575811311}}, 2: {"": {up: 0.0012770143893871312, dn: 0.0012770143893871312}}, 3: {"": {up: 0, dn: 0}}}
+LineColor=red
+LineStyle=solid
+Path=//ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_MUONS:ENERGY=13600/muon_multi_ratio
+Title=VBSZZ@LO(v2918)
+# xlow	 xhigh	 val	 errminus	 errplus
+5.000000e-01	1.500000e+00	7.158223e-01	1.543473e-03	1.543473e-03
+1.500000e+00	2.500000e+00	8.270455e-01	2.028214e-03	2.028214e-03
+2.500000e+00	3.500000e+00	3.788125e-01	1.277014e-03	1.277014e-03
+3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+
+
+# BEGIN HISTO1D //ospool/cms-user/youpeng/genvalid/genValidation/mg352VBS_merged.yoda.gz/MC_MUONS:ENERGY=13600/muon_multi_ratio
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 0.0015438278656276056, dn: 0.0015438278656276056}}, 1: {"": {up: 0.002026123910209668, dn: 0.002026123910209668}}, 2: {"": {up: 0.0012770852795566969, dn: 0.0012770852795566969}}, 3: {"": {up: 0, dn: 0}}}
+LineColor=blue
+LineStyle=solid
+Path=//ospool/cms-user/youpeng/genvalid/genValidation/mg352VBS_merged.yoda.gz/MC_MUONS:ENERGY=13600/muon_multi_ratio
+Title=VBSZZ@LO(v352)
+# xlow	 xhigh	 val	 errminus	 errplus
+5.000000e-01	1.500000e+00	7.160479e-01	1.543828e-03	1.543828e-03
+1.500000e+00	2.500000e+00	8.260676e-01	2.026124e-03	2.026124e-03
+2.500000e+00	3.500000e+00	3.786049e-01	1.277085e-03	1.277085e-03
+3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+
+
+# BEGIN HISTO1D //ospool/cms-user/youpeng/genvalid/genValidation/mg35xVBS_merged.yoda.gz/MC_MUONS:ENERGY=13600/muon_multi_ratio
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 0.0015595533315865232, dn: 0.0015595533315865232}}, 1: {"": {up: 0.0020499450481200098, dn: 0.0020499450481200098}}, 2: {"": {up: 0.0012889969775770596, dn: 0.0012889969775770596}}, 3: {"": {up: 0, dn: 0}}}
+LineColor=green
+LineStyle=solid
+Path=//ospool/cms-user/youpeng/genvalid/genValidation/mg35xVBS_merged.yoda.gz/MC_MUONS:ENERGY=13600/muon_multi_ratio
+Title=VBSZZ@LO(v35x)
+# xlow	 xhigh	 val	 errminus	 errplus
+5.000000e-01	1.500000e+00	7.160804e-01	1.559553e-03	1.559553e-03
+1.500000e+00	2.500000e+00	8.278711e-01	2.049945e-03	2.049945e-03
+2.500000e+00	3.500000e+00	3.787672e-01	1.288997e-03	1.288997e-03
+3.500000e+00	4.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+

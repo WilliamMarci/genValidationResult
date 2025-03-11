@@ -1,0 +1,67 @@
+# BEGIN PLOT
+Legend=1
+LogY=0
+Title=Ratio of jet multiplicity
+XLabel=$N_{\mathrm{jet}}$
+YLabel=$\sigma(\geq N_{\mathrm{jet}})/\sigma(\geq N_{\mathrm{jet}}-1)$
+XMajorTickMarks=10
+XMinorTickMarks=0
+ErrorBands=1
+RemoveOptions=1
+DrawOnly=//ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_multi_ratio //ospool/cms-user/youpeng/genvalid/genValidation/mg352VBS_merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_multi_ratio //ospool/cms-user/youpeng/genvalid/genValidation/mg35xVBS_merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_multi_ratio
+LegendOnly=//ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_multi_ratio //ospool/cms-user/youpeng/genvalid/genValidation/mg352VBS_merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_multi_ratio //ospool/cms-user/youpeng/genvalid/genValidation/mg35xVBS_merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_multi_ratio
+RatioPlot=1
+RatioPlotReference=//ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_multi_ratio
+RatioPlotYLabel=Ratio
+# END PLOT
+
+# BEGIN HISTO1D //ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_multi_ratio
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 0.0030821397714683968, dn: 0.0030821397714683968}}, 1: {"": {up: 0.0030791947996842966, dn: 0.0030791947996842966}}, 2: {"": {up: 0.0030101937377669161, dn: 0.0030101937377669161}}, 3: {"": {up: 0.0026025456375287394, dn: 0.0026025456375287394}}, 4: {"": {up: 0.0019028535078344164, dn: 0.0019028535078344164}}, 5: {"": {up: 0, dn: 0}}}
+LineColor=red
+LineStyle=solid
+Path=//ospool/cms-user/youpeng/genvalid/genValidation/masterVBS_merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_multi_ratio
+Title=VBSZZ@LO(v2918)
+# xlow	 xhigh	 val	 errminus	 errplus
+5.000000e-01	1.500000e+00	9.999763e-01	3.082140e-03	3.082140e-03
+1.500000e+00	2.500000e+00	9.986866e-01	3.079195e-03	3.079195e-03
+2.500000e+00	3.500000e+00	9.680684e-01	3.010194e-03	3.010194e-03
+3.500000e+00	4.500000e+00	7.782718e-01	2.602546e-03	2.602546e-03
+4.500000e+00	5.500000e+00	4.216718e-01	1.902854e-03	1.902854e-03
+5.500000e+00	6.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+
+
+# BEGIN HISTO1D //ospool/cms-user/youpeng/genvalid/genValidation/mg352VBS_merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_multi_ratio
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 0.00308184701915023, dn: 0.00308184701915023}}, 1: {"": {up: 0.0030788386005202628, dn: 0.0030788386005202628}}, 2: {"": {up: 0.0030081665075533761, dn: 0.0030081665075533761}}, 3: {"": {up: 0.00260113477328911, dn: 0.00260113477328911}}, 4: {"": {up: 0.0019010551713216589, dn: 0.0019010551713216589}}, 5: {"": {up: 0, dn: 0}}}
+LineColor=blue
+LineStyle=solid
+Path=//ospool/cms-user/youpeng/genvalid/genValidation/mg352VBS_merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_multi_ratio
+Title=VBSZZ@LO(v352)
+# xlow	 xhigh	 val	 errminus	 errplus
+5.000000e-01	1.500000e+00	9.999573e-01	3.081847e-03	3.081847e-03
+1.500000e+00	2.500000e+00	9.986274e-01	3.078839e-03	3.078839e-03
+2.500000e+00	3.500000e+00	9.672507e-01	3.008167e-03	3.008167e-03
+3.500000e+00	4.500000e+00	7.772940e-01	2.601135e-03	2.601135e-03
+4.500000e+00	5.500000e+00	4.204903e-01	1.901055e-03	1.901055e-03
+5.500000e+00	6.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+
+
+# BEGIN HISTO1D //ospool/cms-user/youpeng/genvalid/genValidation/mg35xVBS_merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_multi_ratio
+ErrorBars=1
+ErrorBreakdown={0: {"": {up: 0.0031157656537407598, dn: 0.0031157656537407598}}, 1: {"": {up: 0.0031125018683099653, dn: 0.0031125018683099653}}, 2: {"": {up: 0.0030419661928642256, dn: 0.0030419661928642256}}, 3: {"": {up: 0.0026316921657133859, dn: 0.0026316921657133859}}, 4: {"": {up: 0.0019219009565273931, dn: 0.0019219009565273931}}, 5: {"": {up: 0, dn: 0}}}
+LineColor=green
+LineStyle=solid
+Path=//ospool/cms-user/youpeng/genvalid/genValidation/mg35xVBS_merged.yoda.gz/MC_ZJETS:ENERGY=13600/jet_multi_ratio
+Title=VBSZZ@LO(v35x)
+# xlow	 xhigh	 val	 errminus	 errplus
+5.000000e-01	1.500000e+00	9.999684e-01	3.115766e-03	3.115766e-03
+1.500000e+00	2.500000e+00	9.985510e-01	3.112502e-03	3.112502e-03
+2.500000e+00	3.500000e+00	9.675135e-01	3.041966e-03	3.041966e-03
+3.500000e+00	4.500000e+00	7.781890e-01	2.631692e-03	2.631692e-03
+4.500000e+00	5.500000e+00	4.208808e-01	1.921901e-03	1.921901e-03
+5.500000e+00	6.500000e+00	0.000000e+00	0.000000e+00	0.000000e+00
+# END HISTO1D
+

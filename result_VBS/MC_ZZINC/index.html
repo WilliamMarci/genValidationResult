@@ -1,0 +1,161 @@
+<html>
+<head>
+<title>Plots from Rivet analyses &ndash; MC_ZZINC</title>
+<style>
+      html { font-family: sans-serif; }
+      img { border: 0; }
+      a { text-decoration: none; font-weight: bold; }
+    </style>
+            <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          tex2jax: {inlineMath: [["$","$"]]}
+        });
+        </script>
+        <script type="text/javascript" async
+          src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        </script>
+        
+
+        <script type="text/javascript">
+            function filterPlots(ana, patt) {
+                var regex = new RegExp(patt);
+                var sec = document.getElementById('ana_'+ana);
+                var plots = sec.getElementsByClassName('plot');
+                var i; for (i = 0; i < plots.length; ++i) {
+                    // var viz = (regex.test(plots[i].id)) ? 'visible' : 'hidden';
+                    // plots[i].style.visibility = viz;
+                    var dis = (regex.test(plots[i].id)) ? 'block' : 'none';
+                    plots[i].style.display = dis;
+                }
+                return false;
+           }
+        </script>
+        </head>
+<body>
+<section id="ana_MC_ZZINC">
+<h3>MC_ZZINC</h3>
+<p><a href="../index.html">Back to index</a></p>
+<p>
+  Monte Carlo validation observables for $Z[e^+ \, e^-]Z[\mu^+ \, \mu^-]$ production
+</p>
+<form onsubmit="var patt = document.getElementById('patt_MC_ZZINC').value; filterPlots('MC_ZZINC', patt); return false;">
+<span>Filter plots:&nbsp;</span><input id="patt_MC_ZZINC" type="search">
+<input type="submit" value="Filter">
+</form>
+
+  <div class="plot" id="plot_ZZ_costheta_planes" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_ZZINC-ZZ_costheta_planes">&#9875;</a><a href="ZZ_costheta_planes.dat">&#8984</a> ZZ_costheta_planes:<br/>
+    <a name="MC_ZZINC-ZZ_costheta_planes"><a href="ZZ_costheta_planes.pdf">
+      <img src="ZZ_costheta_planes.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_ZZ_dR" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_ZZINC-ZZ_dR">&#9875;</a><a href="ZZ_dR.dat">&#8984</a> ZZ_dR:<br/>
+    <a name="MC_ZZINC-ZZ_dR"><a href="ZZ_dR.pdf">
+      <img src="ZZ_dR.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_ZZ_deta" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_ZZINC-ZZ_deta">&#9875;</a><a href="ZZ_deta.dat">&#8984</a> ZZ_deta:<br/>
+    <a name="MC_ZZINC-ZZ_deta"><a href="ZZ_deta.pdf">
+      <img src="ZZ_deta.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_ZZ_dpT" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_ZZINC-ZZ_dpT">&#9875;</a><a href="ZZ_dpT.dat">&#8984</a> ZZ_dpT:<br/>
+    <a name="MC_ZZINC-ZZ_dpT"><a href="ZZ_dpT.pdf">
+      <img src="ZZ_dpT.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_ZZ_dphi" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_ZZINC-ZZ_dphi">&#9875;</a><a href="ZZ_dphi.dat">&#8984</a> ZZ_dphi:<br/>
+    <a name="MC_ZZINC-ZZ_dphi"><a href="ZZ_dphi.pdf">
+      <img src="ZZ_dphi.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_ZZ_eta" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_ZZINC-ZZ_eta">&#9875;</a><a href="ZZ_eta.dat">&#8984</a> ZZ_eta:<br/>
+    <a name="MC_ZZINC-ZZ_eta"><a href="ZZ_eta.pdf">
+      <img src="ZZ_eta.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_ZZ_m" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_ZZINC-ZZ_m">&#9875;</a><a href="ZZ_m.dat">&#8984</a> ZZ_m:<br/>
+    <a name="MC_ZZINC-ZZ_m"><a href="ZZ_m.pdf">
+      <img src="ZZ_m.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_ZZ_pT" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_ZZINC-ZZ_pT">&#9875;</a><a href="ZZ_pT.dat">&#8984</a> ZZ_pT:<br/>
+    <a name="MC_ZZINC-ZZ_pT"><a href="ZZ_pT.pdf">
+      <img src="ZZ_pT.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_ZZ_pT_peak" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_ZZINC-ZZ_pT_peak">&#9875;</a><a href="ZZ_pT_peak.dat">&#8984</a> ZZ_pT_peak:<br/>
+    <a name="MC_ZZINC-ZZ_pT_peak"><a href="ZZ_pT_peak.pdf">
+      <img src="ZZ_pT_peak.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_ZZ_phi" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_ZZINC-ZZ_phi">&#9875;</a><a href="ZZ_phi.dat">&#8984</a> ZZ_phi:<br/>
+    <a name="MC_ZZINC-ZZ_phi"><a href="ZZ_phi.pdf">
+      <img src="ZZ_phi.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_Z_eta" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_ZZINC-Z_eta">&#9875;</a><a href="Z_eta.dat">&#8984</a> Z_eta:<br/>
+    <a name="MC_ZZINC-Z_eta"><a href="Z_eta.pdf">
+      <img src="Z_eta.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_Z_pT" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_ZZINC-Z_pT">&#9875;</a><a href="Z_pT.dat">&#8984</a> Z_pT:<br/>
+    <a name="MC_ZZINC-Z_pT"><a href="Z_pT.pdf">
+      <img src="Z_pT.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_ZeZm_dR" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_ZZINC-ZeZm_dR">&#9875;</a><a href="ZeZm_dR.dat">&#8984</a> ZeZm_dR:<br/>
+    <a name="MC_ZZINC-ZeZm_dR"><a href="ZeZm_dR.pdf">
+      <img src="ZeZm_dR.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_ZeZm_deta" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_ZZINC-ZeZm_deta">&#9875;</a><a href="ZeZm_deta.dat">&#8984</a> ZeZm_deta:<br/>
+    <a name="MC_ZZINC-ZeZm_deta"><a href="ZeZm_deta.pdf">
+      <img src="ZeZm_deta.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_ZeZm_dphi" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_ZZINC-ZeZm_dphi">&#9875;</a><a href="ZeZm_dphi.dat">&#8984</a> ZeZm_dphi:<br/>
+    <a name="MC_ZZINC-ZeZm_dphi"><a href="ZeZm_dphi.pdf">
+      <img src="ZeZm_dphi.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_ZeZm_m" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_ZZINC-ZeZm_m">&#9875;</a><a href="ZeZm_m.dat">&#8984</a> ZeZm_m:<br/>
+    <a name="MC_ZZINC-ZeZm_m"><a href="ZeZm_m.pdf">
+      <img src="ZeZm_m.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_Zl_eta" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_ZZINC-Zl_eta">&#9875;</a><a href="Zl_eta.dat">&#8984</a> Zl_eta:<br/>
+    <a name="MC_ZZINC-Zl_eta"><a href="Zl_eta.pdf">
+      <img src="Zl_eta.png">
+    </a></a>
+  </div>
+  <div class="plot" id="plot_Zl_pT" style="float:left; font-size:smaller; font-weight:bold;">
+    <a href="#MC_ZZINC-Zl_pT">&#9875;</a><a href="Zl_pT.dat">&#8984</a> Zl_pT:<br/>
+    <a name="MC_ZZINC-Zl_pT"><a href="Zl_pT.pdf">
+      <img src="Zl_pT.png">
+    </a></a>
+  </div>
+</section>
+
+<footer style="clear:both; margin-top:3em; padding-top:3em">
+<p>Generated at Monday, 10. March 2025 11:40PM</p>
+</footer>
+
+</body>
+</html>
